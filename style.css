@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    background-color: #1F2937;
+    padding: 0px 42px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+h1,
+h3 {
+    font-family: meddon, helvetica, sans-serif;
+    color: #5f9ea0;
+    line-height: 1;    
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 16px;
+}
+
+.introduction {
+    display: flex;
+    border: 2px solid purple;
+    align-items: center;
+    padding: 42px 0px;
+    gap: 16px;
+}
+
+
+#quilt-intro{
+    max-height: 200px;
+    width: auto;
+}
+
+
+
+.introduction p {
+    color: #E5E7EB;
+}
