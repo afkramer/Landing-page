@@ -7,6 +7,10 @@ body {
     min-height: 100vh;
 }
 
+p {
+    font-size: 18px;
+}
+
 .top{
     background-color: #1F2937;
     padding: 0px 150px;
@@ -30,6 +34,7 @@ h3 {
 }
 
 h1 {
+    font-size: 48px;
     margin-top: 0px;
     font-weight: 900;
 }
@@ -101,10 +106,11 @@ li a {
     justify-content: space-around;
 }
 
-h2 {
+.information h2 {
     text-align: center;
     color: darkblue;
     padding-bottom: 32px;
+    font-size: 24px;
 }
 
 .info-bubble {
@@ -116,4 +122,29 @@ h2 {
 
 .info-bubble p {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 64px 150px;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: Karma, Helvetica, sans-serif;
+}
+
+#author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.action {
+    display: flex;
 }
