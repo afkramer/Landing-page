@@ -147,4 +147,11 @@ li a {
 
 .action {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container,
+.action-text {
+    display: flex;
 }
